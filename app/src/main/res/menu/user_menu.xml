@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/user_menu_categories"
+        android:title="@string/categories_menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/user_menu_addNewLook"
+        android:title="@string/add_new_look"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/user_menu_myLooks"
+        android:title="@string/my_looks"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/user_menu_logout"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+
+
+</menu>

@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">FabFreak</string>
+    <string name="fab_freak">Fab-Freak</string>
+    <string name="todo">TODO</string>
+    <string name="clothescategory">clothesCategory</string>
+    <string name="icon_image_review">icon_image_review</string>
+    <string name="category_name">category_name</string>
+    <string name="short_decription">short_decription</string>
+    <string name="signup">signup</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="registartion">registartion</string>
+    <string name="login_sms">login_sms</string>
+    <string name="systemregistartion">systemregistartion</string>
+    <string name="user_name">user_name</string>
+    <string name="name_category">name category</string>
+    <string name="categories">categories</string>
+    <string name="choose_category">choose_category</string>
+    <string name="for_registration_click_here">for registration click here</string>
+    <string name="login">Login</string>
+    <string name="login_userasktoregister">login_userAskToRegister</string>
+    <string name="Name">user name</string>
+    <string name="categories_menu">categories menu</string>
+    <string name="add_new_look">add new look</string>
+    <string name="my_looks">my looks</string>
+    <string name="logout">Logout</string>
+    <string name="choosen_category">choosen_category</string>
+    <string name="looks_amount">looks amount</string>
+    <string name="published_user">published user</string>
+    <string name="click_here_for_registration">click here for registration</string>
+    <string name="looks_i_shared">Looks I shared</string>
+
+    <string-array name="categories">
+        <item>event</item>
+        <item>night out</item>
+        <item>study</item>
+        <item>work</item>
+
+    </string-array>
+
+</resources>
