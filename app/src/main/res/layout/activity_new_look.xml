@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:verticalScrollbarPosition="defaultPosition"
+    tools:context=".NewLookActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:id="@+id/showLook_bt_previous"
+                    android:layout_width="50dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_baseline_navigate_before"
+                    android:visibility="gone"/>
+
+                <ImageSwitcher
+                    android:id="@+id/image_switcher"
+                    android:layout_width="300dp"
+                    android:layout_height="166dp"
+                    tools:ignore="MissingConstraints"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/showLook_bt_next"
+                    android:layout_width="50dp"
+                    android:layout_height="80dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginRight="24dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_baseline_navigate_next"
+                    android:layout_gravity="center"
+                    android:visibility="gone"/>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/pickImageBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:text="upload look image"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnPickImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="Icon"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <ImageView
+                    android:id="@+id/myIconView"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="end"
+                    android:background="@color/white"
+                    android:contentDescription="@string/icon_image_review"
+                    android:scaleType="centerCrop"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/look_name"
+                android:layout_width="326dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:autofillHints=""
+                android:ems="15"
+                android:hint="write your look name"
+                android:inputType="textPersonName"
+                android:textSize="17sp" />
+
+            <Spinner
+                android:id="@+id/category_spinner_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="5dp"
+                android:background="#8F8989" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"/>
+
+            <LinearLayout
+                android:id="@+id/container_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="50dp"
+                android:orientation="vertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"/>
+
+
+
+            <Button
+                android:id="@+id/upload_look"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"
+                android:text="upload"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</LinearLayout>

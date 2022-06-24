@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1030947375657",
+    "project_id": "fabfreak-54897",
+    "storage_bucket": "fabfreak-54897.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030947375657:android:8e5ae11cdf2430b24eaa38",
+        "android_client_info": {
+          "package_name": "com.example.fabfreak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030947375657-171122tcb5174sa8s3sjut0e7scbmhk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfCRihO6RkrozS_-aCGC9Q6Dt8VLiaeqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030947375657-171122tcb5174sa8s3sjut0e7scbmhk2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
